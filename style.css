@@ -1,0 +1,108 @@
+
+/* Estilos de la navbar */
+.navbar {
+     margin-bottom: 20px; 
+}
+
+
+.navbar-brand {
+     font-size: 1.5rem; 
+}
+
+.navbar-nav .nav-link {
+     margin-left: auto;
+     font-size: 1.1rem; 
+}
+
+
+/* Estilos generales */
+body {
+     background-color: #f0f0f0; 
+     color: #333; 
+     font-family: 'Arial', sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     max-width: 900px;
+     margin-top: 40px;
+     background-color: #fff; 
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del formulario */
+form {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     margin-bottom: 20px;
+}
+
+input.form-control {
+     flex: 1;
+}
+
+button[type="submit"] {
+     background-color: #242424; 
+     color: white;
+     border: none;
+     padding: 10px 15px;
+     border-radius: 4px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+     background-color: #3d3d3d; 
+}
+
+/* Estilos de las cards */
+.card {
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border: none;
+     margin-top: 20px;
+     transition: transform 0.2s;
+}
+
+.card:hover {
+     transform: scale(1.05);
+}
+
+.card-title {
+     font-size: 1.25rem;
+     font-weight: bold;
+}
+
+.card-subtitle {
+     font-size: 0.9rem;
+     color: #6c757d;
+}
+
+/* Estilos del footer */
+.footer {
+     background-color: #333; 
+     color: rgb(0, 0, 0);
+     padding: 20px;
+     margin-top: auto;
+     bottom: 0;
+     text-align: center;
+     width: 100%;
+}
+
+.footer p {
+     margin: 0;
+     font-size: 0.9rem;
+}
+
+.footer a {
+     color: #565656; 
+     text-decoration: none;
+     transition: color 0.3s;
+}
+
+.footer a:hover {
+     color: #981e1e; 
+}
